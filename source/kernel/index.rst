@@ -7,5 +7,5 @@ Kernel 文档
 .. toctree::
    :maxdepth: 1
 
-   intro
-   pcie
+   rk3588_pcie
+   base
