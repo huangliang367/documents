@@ -7,4 +7,4 @@ PCIe 文档
 .. toctree::
    :maxdepth: 1
 
-    basic
+   base

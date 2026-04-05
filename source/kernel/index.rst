@@ -9,3 +9,4 @@ Kernel 文档
 
    rk3588_pcie
    base
+   learning

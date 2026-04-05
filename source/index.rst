@@ -32,6 +32,21 @@ PCIe
 
    pcie/index
 
+MISC
+================================
+
+.. toctree::
+   :maxdepth: 2
+
+   misc/index
+
+U-Boot
+================================
+
+.. toctree::
+   :maxdepth: 2
+
+   uboot/index
 
 索引
 ================================
