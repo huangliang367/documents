@@ -17,8 +17,8 @@
 4. git 配置代理
 
 ```shell
-git config --global http.proxy "http://172.24.160.1:7890"
-git config --global https.proxy "http://172.24.160.1:7890"
+git config --global http.proxy "http://172.18.32.1:7897"
+git config --global https.proxy "http://172.18.32.1:7897"
 ```
 
 5. repo配置代理
@@ -36,3 +36,26 @@ curl ipinfo.io
 ```
 
 ![ipinfo](/_static/msic/ipinfo.png)
+
+## docker配置代理
+
+```shell
+sudo mkdir -p /etc/systemd/system/docker.service.d
+sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf
+```
+
+输入以下内容：
+
+```shell
+[Service]
+Environment="HTTP_PROXY=http://172.18.32.1:7897"
+Environment="HTTPS_PROXY=http://172.18.32.1:7897"
+```
+
+重启docker
+
+```shell
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```

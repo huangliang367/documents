@@ -131,3 +131,17 @@ pip install --index-url https://test.pypi.org/simple/ \
 poetry publish
 pip install <pkg-name>
 ```
+
+## C工程组织
+
+```text
+The Practice of Programming
+C Interfaces and Implementations
+Expert C Programming
+C Traps and Pitfalls
+Large-Scale C++ Software Design
+The C Programming Language
+The Art of Unix Programming
+Advanced Programming in the UNIX Environment
+MISRA C
+```
