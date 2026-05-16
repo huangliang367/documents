@@ -15,9 +15,6 @@ release = 'V0.0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "sphinx.ext.autodoc",   # 从 docstring 生成 API 文档
-    "sphinx.ext.napoleon",  # 支持 Google 和 NumPy 格式的 docstring
-    "sphinx.ext.intersphinx", # 链接到外部文档（如 Python 官方文档）
     "myst_parser",          # 支持 Markdown 源文件
 ]
 
