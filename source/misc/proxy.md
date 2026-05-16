@@ -12,7 +12,7 @@
 
 可以在windows中查看：
 
-![windows_ip](/_static/msic/windows_ip.png)
+![windows_ip](/_static/misc/windows_ip.png)
 
 4. git 配置代理
 
@@ -35,7 +35,7 @@ export all_proxy=socks5://172.18.32.1:7897
 curl ipinfo.io
 ```
 
-![ipinfo](/_static/msic/ipinfo.png)
+![ipinfo](/_static/misc/ipinfo.png)
 
 ## docker配置代理
 
